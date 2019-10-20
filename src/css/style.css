@@ -1,0 +1,107 @@
+/* index */
+.slideShow {
+    position: relative;
+}
+
+.slideShow .book-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.book-list .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: gray;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* edit create */
+.createList {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info {
+    color: white;
+}
+
+.hotelName {
+    text-align: center;
+}
+
+/* listHotel */
+.my-alert {
+    width: 100%;
+    padding: 25px;
+    z-index: 9;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.thumbnail {
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.book-list .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* o-banner class on index */
+.o-banner {
+    margin: 15px;
+    padding: 20px 0;
+    background: url('../images/background/o-banner.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.o-banner h2 {
+    font-weight: 100;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.overlayButtons{
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+}
+
+.colEdit {
+    float: right;
+}
+
+#colMDelete {
+    float: left;
+}
+
+.modal-header h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.green {
+    background: green;
+    z-index: 1;
+}

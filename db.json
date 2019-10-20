@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Folahanmi",
+      "lastname": "Kolawole",
+      "email": "emmanuelkolawole4@gmail.com",
+      "password": "folahanmi1@"
+    },
+    {
+      "firstname": "Emmanuel",
+      "lastname": "Kolawole",
+      "email": "teenytiny94@gmail.com",
+      "password": "emmanuel1@",
+      "id": 2
+    },
+    {
+      "firstName": "gdggd",
+      "lastName": "ssdd",
+      "email": "emmanuelkolawo@gmail.com",
+      "password": "dhdhd",
+      "id": 3
+    },
+    {
+      "firstName": "taye",
+      "lastName": "taiwo",
+      "email": "ayyyo@com",
+      "password": "dghs",
+      "id": 4
+    },
+    {
+      "firstName": "OduduAbasi",
+      "lastName": "ayyyo@com",
+      "email": "bullion.relson@gmail.com",
+      "password": "dghs",
+      "id": 5
+    },
+    {
+      "firstName": "xsd",
+      "lastName": "cooker",
+      "email": "bullion.rels@gmail.com",
+      "password": "dghs",
+      "id": 6
+    },
+    {
+      "firstName": "taiwo",
+      "lastName": "Martinez",
+      "email": "bullion.rson@gmail.com",
+      "password": "dghs",
+      "id": 7
+    },
+    {
+      "firstName": "OduduAbasi",
+      "lastName": "Umoeka",
+      "email": "ayyy@com",
+      "password": "dghs",
+      "id": 8
+    }
+  ],
+  "hotels": [
+    {
+      "id": 2,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom.jpg",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom2.jpg",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom3.jpeg",
+      "userId": 3
+    },
+    {
+      "id": 6,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom5.jpg",
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom6.jpg",
+      "userId": 3
+    },
+    {
+      "id": 8,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom7.jpg",
+      "userId": 3
+    },
+    {
+      "id": 9,
+      "name": "Excellence Hotel",
+      "state": "Lagos",
+      "address": "3 Aguda, Ogba",
+      "phone": "08076554544,",
+      "description": "A serene environment with state of the art facilities",
+      "imageUrl": "hotelroom8.jpg",
+      "userId": 3
+    },
+    {
+      "description": "The suite the suit your person",
+      "userId": "5",
+      "name": "De Castle Hotel",
+      "imageUrl": "hotelroom3.jpeg",
+      "address": "Abuja road, 6",
+      "state": "Lagos",
+      "phone": "08133620092",
+      "id": 12
+    }
+  ]
+}
