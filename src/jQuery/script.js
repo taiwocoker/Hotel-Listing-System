@@ -4,41 +4,45 @@ $(document).ready(function () {
 
     // query to the jsonServer to get the stored hotels (read all hotels from the database)
     jQuery.get('http://localhost:3000/hotels', function(data) {
+    
+        if(data.length >= 6) {
+            // Looping over the first six hotels to be displayed on the landing page..
+            for (let i = 0; i < 6; i++) {            
+                // if(i >= 6) break;
+                
 
-        // Looping over the first six hotels to be displayed on the landing page..
-        for (let i = 0; i < 6; i++) {            
-            // if(i >= 6) break;
-            
+                // To get the description and src properties from the gotten data
+                let src = data[i].imageUrl,
+                description = data[i].description;
 
-            // To get the description and src properties from the gotten data
-            let src = data[i].imageUrl,
-            description = data[i].description;
-
-            // Appends the html elements to the element with class 'featured' on the landing page
-            $('.featured').append(`<div class="col-md-4 gEle" id="${data[i].id}">
-                <div class="thumbnail">
-                    <img data-toggle="modal" data-target="#featured${data[i].id}"  src="./src/images/gallery/${src}" alt="hotelRoom" style="width:100%">
-                    <div class="caption">
-                    <p>${description}</p>
+                // Appends the html elements to the element with class 'featured' on the landing page
+                $('.featured').append(`<div class="col-md-4 gEle" id="${data[i].id}">
+                    <div class="thumbnail">
+                        <img data-toggle="modal" data-target="#featured${data[i].id}"  src="./src/images/gallery/${src}" alt="hotelRoom" style="width:100%">
+                        <div class="caption">
+                        <p>${description}</p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Modal to display singleImage-->
-                <div id="featured${data[i].id}" class="modal fade" role="dialog">
-                    <div class="modal-dialog"><div class="thumbnail">
-                            <img src="./src/images/gallery/${src}" alt="hotelRoom" style="width:100%">
-                            <div class="caption">
-                                <p>${data[i].name}</p>
-                                <p>${description}</p>
-                                <p>${data[i].address}</p>
-                                <p>${data[i].state}</p>
-                                <p>${data[i].phone}</p>
-                            </div>
-                        </div>           
+                    <!-- Modal to display singleImage-->
+                    <div id="featured${data[i].id}" class="modal fade" role="dialog">
+                        <div class="modal-dialog"><div class="thumbnail">
+                                <img src="./src/images/gallery/${src}" alt="hotelRoom" style="width:100%">
+                                <div class="caption">
+                                    <p>${data[i].name}</p>
+                                    <p>${description}</p>
+                                    <p>${data[i].address}</p>
+                                    <p>${data[i].state}</p>
+                                    <p>${data[i].phone}</p>
+                                </div>
+                            </div>           
+                        </div>
                     </div>
-                </div>
-            </div>`);
+                </div>`);
+            }
         }
+
+
 
          // Looping over all hotels from database..
         for(let i = 0; i < data.length; i++) {

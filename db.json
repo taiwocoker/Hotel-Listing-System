@@ -59,26 +59,6 @@
   ],
   "hotels": [
     {
-      "id": 2,
-      "name": "Excellence Hotel",
-      "state": "Lagos",
-      "address": "3 Aguda, Ogba",
-      "phone": "08076554544,",
-      "description": "A serene environment with state of the art facilities",
-      "imageUrl": "hotelroom.jpg",
-      "userId": 1
-    },
-    {
-      "id": 3,
-      "name": "Excellence Hotel",
-      "state": "Lagos",
-      "address": "3 Aguda, Ogba",
-      "phone": "08076554544,",
-      "description": "A serene environment with state of the art facilities",
-      "imageUrl": "hotelroom2.jpg",
-      "userId": 1
-    },
-    {
       "id": 5,
       "name": "Excellence Hotel",
       "state": "Lagos",
@@ -137,6 +117,16 @@
       "state": "Lagos",
       "phone": "08133620092",
       "id": 12
+    },
+    {
+      "description": "A serene environment",
+      "userId": "1",
+      "name": "Excellence Hotel",
+      "imageUrl": "hotelroom.jpg",
+      "address": "45,lliikkkkk",
+      "state": "Lagos",
+      "phone": "080345555555",
+      "id": 13
     }
   ]
 }
