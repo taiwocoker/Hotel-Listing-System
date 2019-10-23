@@ -13,13 +13,13 @@ function deleteHotel(id) {
 
 function editHotel(id) {
     // get values from client and retrieve user id from local storage
-    const name = $('#editName').val();
-    const description = $('#editHotelDescription').val();
+    const name = $('#editName'+id).val();
+    const description = $('#editHotelDescription'+id).val();
     const userId = Number(localStorage.getItem('id'));
-    const address = $('#editHotelAddress').val();
-    const state = $('#editHotelState').val();
-    const phone = $('#editHotelPhone').val();
-    const imageUrl = $('#editHotelImage').val();
+    const address = $('#editHotelAddress'+id).val();
+    const state = $('#editHotelState'+id).val();
+    const phone = $('#editHotelPhone'+id).val();
+    const imageUrl = $('#editHotelImage'+id).val();
 
     // Validate
     if((description.length < 0 || description === '') || (name.length < 0 || name === '') || (imageUrl.length < 0 || imageUrl === '') || (userId.length < 0 || userId === '') || (address.length < 0 || address === '') || (state.length < 0 || state === '') || (phone.length < 0 || phone === '')) {

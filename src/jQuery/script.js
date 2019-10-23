@@ -82,7 +82,7 @@ $(document).ready(function () {
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h4 class="text-center">Delete Design</h4>
+                                    <h4 class="text-center">Delete Hotel</h4>
                                 </div>
                                 <div class="modal-body green">
                                     <p class="text-center"> Do you really want to delete? </p>                                        
@@ -106,35 +106,35 @@ $(document).ready(function () {
                                     <form action="javascript:void(0);" method="PUT"> 
                                         <div class="form-group">
                                             <label for="hotelName">Name:</label>
-                                            <input type="text" class="form-control" id="editName" placeholder="edit name" name="hotel">
+                                            <input type="text" class="form-control" id="editName${data[i].id}" placeholder="edit name" name="hotel">
                                         </div>
                                         
                                         <div class="form-group">
                                             <label for="description">Description:</label>
-                                            <input type="text" class="form-control" id="editHotelDescription" placeholder="describe your hotel" name="description">
+                                            <input type="text" class="form-control" id="editHotelDescription${data[i].id}" placeholder="describe your hotel" name="description">
                                         </div>
 
                                         <div class="form-group">
                                             <label for="editAddress">Address:</label>
-                                            <input type="text" class="form-control" id="editHotelAddress" placeholder="hotel address" name="address">
+                                            <input type="text" class="form-control" id="editHotelAddress${data[i].id}" placeholder="hotel address" name="address">
                                         </div>
 
                                         <div class="form-group">
                                             <label for="editState">State:</label>
-                                            <input type="text" class="form-control" id="editHotelState" placeholder="State" name="state">
+                                            <input type="text" class="form-control" id="editHotelState${data[i].id}" placeholder="State" name="state">
                                         </div>
 
                                         <div class="form-group">
                                             <label for="editPhone">Phone:</label>
-                                            <input type="text" class="form-control" id="editHotelPhone" placeholder="Phone" name="phone">
+                                            <input type="text" class="form-control" id="editHotelPhone${data[i].id}" placeholder="Phone" name="phone">
                                         </div>
                     
                                         <div class="form-group">
                                             <label for="editImage">Image:</label>
-                                            <input type="text" class="form-control" id="editHotelImage" placeholder="image name" name="image">
+                                            <input type="text" class="form-control" id="editHotelImage${data[i].id}" placeholder="image name" name="image">
                                         </div>
                                         
-                                        <button type="submit" id="editDesigner" onClick="editHotel(${data[i].id})" class="btn btn-success">Edit Design</button>
+                                        <button type="submit" id="editDesigner" onClick="editHotel(${data[i].id})" class="btn btn-success">Edit Hotel</button>
                                     </form>
                                 </div>
                             </div>

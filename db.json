@@ -127,6 +127,16 @@
       "state": "Lagos",
       "phone": "080345555555",
       "id": 13
+    },
+    {
+      "description": "djhdjs",
+      "userId": "1",
+      "name": "Excellence Hotel",
+      "imageUrl": "hotelroom.jpg",
+      "address": "45,lliikkkkk",
+      "state": "Lagos",
+      "phone": "08067544333",
+      "id": 14
     }
   ]
 }
