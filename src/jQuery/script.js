@@ -8,7 +8,7 @@ $(document).ready(function () {
         if(data.length >= 6) {
             // Looping over the first six hotels to be displayed on the landing page..
             for (let i = 0; i < 6; i++) {            
-                // if(i >= 6) break;
+            
                 
 
                 // To get the description and src properties from the gotten data
